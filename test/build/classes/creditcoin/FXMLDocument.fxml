@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" styleClass="titlebackground"  prefHeight="340" prefWidth="480" xmlns:fx="http://javafx.com/fxml/1" fx:controller="creditcoin.FXMLDocumentController">
+    <children>
+        
+        <Label layoutX="30" layoutY="30" text="CreditCoin: A Privacy-Preserving Blockchain-Based" styleClass="title"/>
+        <Label layoutX="80" layoutY="60" text="Incentive Announcement Network For" styleClass="title"  />
+        <Label layoutX="85" layoutY="90" text="Communications Of Smart Vehicles" styleClass="title"  />
+        
+        <Button layoutX="180" layoutY="150" text="User Registration" styleClass="button" onAction="#registration" />
+        <Button layoutX="200" layoutY="190" text="User Login" styleClass="button" onAction="#login" />
+        <Button layoutX="220" layoutY="230" text="RSU" styleClass="button" onAction="#rsu" />
+        <Button layoutX="240" layoutY="270" text="Attacker" styleClass="button" onAction="#Attacker" />
+
+    </children>
+</AnchorPane>

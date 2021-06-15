@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" styleClass="background" prefHeight="450.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="creditcoin.RsuController">
+    
+    
+    <Label fx:id="rsuNa" translateX="140" translateY="30" text="RSU No:" styleClass="rsuName"/>
+    <Label fx:id="RsuNum" translateX="190" translateY="30" styleClass="rsuName"/>
+    
+    <Label fx:id="portn" translateX="35" translateY="60" text="PortNo:" styleClass="portno"/>
+    <Label fx:id="portno" translateX="82" translateY="60" styleClass="portno"/>
+    
+    <Label fx:id="neigh" translateX="130" translateY="100"  text="Neighbour" styleClass="neighbour"/>
+    <TextArea fx:id="neighbour" translateX="105" translateY="120" maxHeight="100" maxWidth="100" editable="false"/>
+    
+    <Label fx:id="lati" translateX="130" translateY="60" text="Latitude" styleClass="neighbour"/>
+    <TextField fx:id="latitude" translateX="185" translateY="60" prefWidth="60" editable="false" />
+    
+    <Label fx:id="longi" translateX="255" translateY="60" text="Longitude" styleClass="neighbour"/>
+    <TextField fx:id="longitude" translateX="318" translateY="60" prefWidth="60" editable="false"/>
+    
+    <Label fx:id="rec" translateX="280" translateY="100" text="Receiver" styleClass="neighbour"/>
+    <TextArea fx:id="receiver" translateX="250" translateY="120" prefHeight="100" prefWidth="100"/>
+    
+    <TableView fx:id="Table" translateX="60" translateY="240" prefHeight="200" prefWidth="350" styleClass="tableview">
+     <columns>
+          <TableColumn fx:id="Nodename" text="VEHICLE NAME" prefWidth="50"/>
+          <TableColumn fx:id="PortNo" text="PORT NO" prefWidth="50"/> 
+          <TableColumn fx:id="Location" text="LOCATION" prefWidth="50"/>
+          <TableColumn fx:id="Message" text="RESPONSE MESSAGE" prefWidth="130"/> 
+          <TableColumn fx:id="Signal" text="Signal Strength" prefWidth="70" />
+     </columns>
+    </TableView>
+    
+    
+</AnchorPane>

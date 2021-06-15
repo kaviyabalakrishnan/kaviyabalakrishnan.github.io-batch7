@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 12, 2018, 9:53:12 AM
+    Author     : gts
+*/
+
+.mainFxmlClass1 
+{
+    
+    -fx-border-radius: 30;
+    -fx-padding: 10 10 10 10;
+    -fx-background-image:url("reg.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 500 500;
+  
+
+}
+.label1
+{
+    -fx-font-family:"Times New Roman";
+    -fx-font-size:16;
+    -fx-text-fill: #ffffff ;
+    -fx-font-weight: bold; 
+}
+
+.text
+{
+    -fx-font-family:"Times New Roman";
+    -fx-font-size:16;
+    -fx-text-fill: #003333 ;
+    -fx-font-weight: bold; 
+}
+
+
+.usertext
+{
+    -fx-font-family:"Times New Roman";
+    -fx-font-size:16;
+    -fx-text-fill: #ffffff ;
+    -fx-font-weight: bold; 
+}
+
+.button { 
+    -fx-background-color: linear-gradient(to bottom, #ffffff 0%, #993300 100%);
+    -fx-background-radius: 9; 
+    -fx-padding: 3; 
+    -fx-font-size: 10pt; 
+    -fx-font-weight: bold; 
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(one-pass-box,  #b35900, 20, 0.5, 0, 0);
+}
+.button:hover 
+{
+    -fx-background-color:#ffcc00
+}

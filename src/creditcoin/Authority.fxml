@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="background"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="creditcoin.AuthorityController">
+  
+    <Label fx:id="rsuNa" translateX="140" translateY="30" text="RSU No:" styleClass="rsuName"/>
+    <Label fx:id="RsuNum" translateX="190" translateY="30" styleClass="rsuName"/>
+    <Label fx:id="portn" translateX="35" translateY="60" text="PortNo:" styleClass="portno"/>
+    <Label fx:id="portno" translateX="82" translateY="60" styleClass="portno"/>
+    <Label fx:id="lati" translateX="130" translateY="60" text="Latitude" styleClass="neighbour"/>
+    <TextField fx:id="latitude" translateX="185" translateY="60" prefWidth="60" editable="false" />
+   
+<!--        <Label layoutX="370" layoutY="90" fx:id="taid" styleClass="label1" />
+        <Label layoutX="250" layoutY="120" text="Ip Address:" styleClass="label1" /> 
+        <Label layoutX="370" layoutY="120" fx:id="ipaddress" styleClass="label1" />    -->
+    <Label fx:id="longi" translateX="255" translateY="60" text="Longitude" styleClass="neighbour"/>
+    <TextField fx:id="longitude" translateX="318" translateY="60" prefWidth="60" editable="false"/>
+    <Label fx:id="rectext" layoutX="200" layoutY="100" text="Received Text:" styleClass="receivedtext"/>
+    <Label fx:id="ID" layoutX="300" layoutY="100" styleClass="portno"/>
+    <TableView fx:id="Table" translateX="150" translateY="150" prefHeight="200" prefWidth="400" styleClass="tableview">
+        <columns>
+            <TableColumn fx:id="Nodename" text="VEHICLE NAME" prefWidth="50"/>
+            <TableColumn fx:id="PortNo" text="PORT NO" prefWidth="50"/> 
+            <TableColumn fx:id="Id" text="ID" prefWidth="50"/>
+             <TableColumn fx:id="Signal" text="TRUST LEVEL" prefWidth="70" />
+          
+        </columns>
+    </TableView>
+    
+    
+    
+    
+      
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<AnchorPane id="AnchorPane" styleClass="mainFxmlClass1"  prefHeight="400.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="creditcoin.LoginController">
+    
+    
+    <ImageView
+            fx:id="imageView"                    
+            fitHeight="100" fitWidth="100.0" translateX="145" translateY="60" onMousePressed="#login">             
+            <image>                
+                <Image url="/Image/login.png" preserveRatio="true" smooth="true" />                 
+            </image>
+        </ImageView>
+    
+    <TextField  layoutX="130" layoutY="250" promptText="Enter User Name" fx:id="username"/>
+    <PasswordField layoutX="130" layoutY="290" promptText="Enter password"  fx:id="pass" />
+    
+    
+</AnchorPane>

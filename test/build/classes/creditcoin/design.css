@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 11, 2018, 4:20:20 PM
+    Author     : gts
+*/
+
+.title
+{
+    -fx-font-family: "Times New Roman";
+    -fx-font-size:20;
+    -fx-text-fill:#cd2cf9;
+    -fx-effect: dropshadow( one-pass-box , rgba(0, 0, 0, 0.6), 0, 0.0 , 0 , 1);
+}
+.titlebackground
+{
+    /*-fx-background-color:#fbffa0;*/
+    /*-fx-background-image:url("background.jpg");*/
+     -fx-background-image: url("../Image/background.jpg");
+}
+.button { 
+    -fx-background-color: linear-gradient(to bottom, #ffffff 0%, #993300 100%);
+    -fx-background-radius: 9; 
+    -fx-padding: 3; 
+    -fx-font-size: 10pt; 
+    -fx-font-weight: bold; 
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(one-pass-box,  #b35900, 20, 0.5, 0, 0);
+}
+
+.nodebackground
+ {
+     -fx-background-color:#f4dc9a;
+ }
+ 
+ .nodename
+ {
+     -fx-text-fill:#e20636;
+    -fx-font-size:16;
+    -fx-font-weight:bold;
+    
+ }
+ 
+ .portno
+ {
+      -fx-text-fill:#0810e2;
+      -fx-font-size:14;
+ }
+ 
+ .neighbour
+ {
+     -fx-text-fill:#e23708;
+    -fx-font-size:14;
+ }
+ 
+ .longitude
+{
+    -fx-text-fill:#0810e2;
+    -fx-font-size:14;
+}
+
+.latitude
+{
+    -fx-text-fill:#b608e2;
+    -fx-font-size:14;
+}
+
+.sender
+{
+    -fx-text-fill:#e20854;
+    -fx-font-size:14;
+}
+
+.speed
+{
+    -fx-text-fill:#e20854;
+    -fx-font-size:14;
+}
+
+.controls
+{
+   -fx-text-fill:#0810e2;
+    -fx-font-size:14;
+}
+
+.receivedtext
+{
+     -fx-text-fill:#f41127;
+     -fx-font-size:15;
+}

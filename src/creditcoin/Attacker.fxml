@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" styleClass="background"  fx:controller="creditcoin.AttackerController">
+   
+   <Label fx:id="carNa" layoutX="180" layoutY="20" text="Vehicle No:" styleClass="carname"/>
+    <Label fx:id="CarName" layoutX="270" layoutY="20" styleClass="carname"/>
+    
+    <Label fx:id="port" layoutX="50" layoutY="60" text="PortNo:" styleClass="portno"/>
+    <Label fx:id="PortNo" layoutX="100" layoutY="60" styleClass="portno"/>
+    
+    <Label fx:id="controls" layoutX="240" layoutY="160" text="VEHICLE CONTROLS" styleClass="controls"/>
+<!--    <javafx.scene.image.ImageView fx:id="up" layoutX="280.0" layoutY="180.0" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#start">
+            <image>
+                <javafx.scene.image.Image fx:id="uparrow" url="/Image/Up.png" />
+            </image>
+    </javafx.scene.image.ImageView>
+        
+    
+    <javafx.scene.image.ImageView fx:id="down" layoutX="280.0" layoutY="250.0" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#partialBreak">
+            <image>
+                <javafx.scene.image.Image fx:id="downarrow" url="/Image/down.png" />
+            </image>
+    </javafx.scene.image.ImageView>
+    
+    <javafx.scene.image.ImageView fx:id="stop" layoutX="280.0" layoutY="215.0" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#emergencyBrake">
+            <image>
+                <javafx.scene.image.Image fx:id="stoparrow" url="/Image/stopp.png" />
+            </image>
+    </javafx.scene.image.ImageView>
+    
+    
+    
+    
+    <javafx.scene.image.ImageView fx:id="left" layoutX="245.0" layoutY="215.0" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#left">
+            <image>
+                <javafx.scene.image.Image fx:id="leftarrow" url="/Image/left.png" />
+            </image>
+    </javafx.scene.image.ImageView>
+    
+    
+    <javafx.scene.image.ImageView fx:id="right" layoutX="316.0" layoutY="215.0" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#right">
+            <image>
+                <javafx.scene.image.Image fx:id="rightarrow" url="/Image/right.png" />
+            </image>
+    </javafx.scene.image.ImageView>
+    -->
+    
+    
+    <Label fx:id="long" layoutX="50" layoutY="180" text="Longitude" styleClass="longitude"/>
+    <TextField fx:id="longitude" layoutX="120" layoutY="180" prefWidth="70" editable="false" />
+    
+    <Label fx:id="lati" layoutX="50" layoutY="220" text="Latitude" styleClass="latitude"/>
+     <TextField fx:id="latitude" layoutX="120" layoutY="220" prefWidth="70" editable="false" /> 
+    
+    <Label fx:id="neigh" layoutX="170" layoutY="60" text="Neighbour" styleClass="neighbour"/>
+    <TextArea fx:id="topNeighbour" translateX="240" translateY="60" maxHeight="25" maxWidth="200" editable="false" />
+        
+    <Label fx:id="Speed" layoutX="50" layoutY="100" text="Speed:" styleClass="speed"/>
+    <Label fx:id="speedd" layoutX="100" layoutY="100" text="0" styleClass="speed"/>
+    
+<!--    <Label fx:id="sentext" layoutX="80" layoutY="160" text="Sender" styleClass="sender"/>
+    <TextArea fx:id="sendtext" layoutX="50" layoutY="190" maxHeight="100" maxWidth="100"/>-->
+    
+    <Label fx:id="car" layoutX="450" layoutY="62" text="Car ID:" styleClass="neighbour"/>
+    <Label fx:id="carid" layoutX="500" layoutY="62"  styleClass="receivedtext"/>
+    <!--      <Label fx:id="rectext1" layoutX="250" layoutY="400" text="Authority:" styleClass="receivedtext"/>
+    <Label fx:id="receivetext1" layoutX="350" layoutY="400" styleClass="portno"/>-->
+     <Button fx:id="send" layoutX="80" layoutY="410" text="Send" onAction="#send" />
+    
+    <Label fx:id="rectext" layoutX="170" layoutY="100" text="Received Text:" styleClass="receivedtext"/>
+    <Label fx:id="receivetext" layoutX="270" layoutY="100" styleClass="receivedtext"/>
+    
+<!--    <Button fx:id="laneChange" layoutX="470" layoutY="60" text="Overtaking" onAction="#laneChange"/>-->
+    <Button fx:id="kit" layoutX="470" layoutY="100" text="Assign Kit" onAction="#assignKit" />
+    <Button fx:id="res" layoutX="425" layoutY="390" text="Attack" onAction="#Attack"/>
+</AnchorPane>

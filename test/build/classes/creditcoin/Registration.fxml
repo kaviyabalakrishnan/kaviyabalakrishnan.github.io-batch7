@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" styleClass="mainFxmlClass1" prefHeight="400.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="creditcoin.RegistrationController">
+    
+    
+        <Label layoutX="110" layoutY="30"  text="Welcome To Registration" />
+        
+        <Label layoutX="30" layoutY="110" text="User Name " styleClass="usertext" />
+        <TextField  layoutX="150" layoutY="110" fx:id="name"  promptText="Enter User Name" />
+    
+        <Label layoutX="30" layoutY="150" text="Password" styleClass="usertext"/>
+        <PasswordField layoutX="150" layoutY="150" fx:id="password" promptText="Enter Your Password" />    
+
+        <Label layoutX="30" layoutY="190" text="Contact Number" styleClass="usertext"/>
+        <TextField layoutX="150" layoutY="190" fx:id="number" promptText="Contact number" />
+        
+        <Label layoutX="30" layoutY="230" text="E-Mail" styleClass="usertext"/>
+        <TextField layoutX="150" layoutY="230"  fx:id="email" promptText="E-Mail"/>
+        
+        <Button layoutX="100" layoutY="450" onAction="#submit"  text="Submit" />
+        <Button layoutX="200" layoutY="450" onAction="#finish" text="Finish" />
+    
+    
+</AnchorPane>
